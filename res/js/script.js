@@ -12,4 +12,7 @@ $(document).ready(function(){
         $('#profile-button').removeClass('active')
         $('#courses-button').addClass('active')
     })
+	$("#add-course-button").click(function(){
+		$('#add-course').addClass('active');
+	});
 });
